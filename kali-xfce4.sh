@@ -39,7 +39,7 @@ if [ "$first" != 1 ];then
 		*)
 			echo "unknown architecture"; exit 1 ;;
 		esac
-		wget "https://github.com/termux/proot-distro/releases/download/v2.2.0/kali-aarch64-pd-v2.2.0.tar.xz" -O $tarball
+		wget "https://github.com/RandomCoderOrg/fs-cook/releases/download/kali-01/kali-rolling-raw-arm64.tar.gz" -O $tarball
 
 fi
 	mkdir -p "$folder"
